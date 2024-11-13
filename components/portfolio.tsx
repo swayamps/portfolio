@@ -1,7 +1,7 @@
 'use client'
 
 import * as React from "react"
-import { Search, Home, Code, Library, Plus, ArrowRight, MoreHorizontal, ExternalLink, Github, Twitter, Linkedin, Mail, ChevronDown, Briefcase, GraduationCap, Music, Trophy, ChevronLeft } from "lucide-react"
+import {Home,Library, ArrowRight,ExternalLink, Github, Twitter, Linkedin, Mail, ChevronDown, Briefcase, GraduationCap, Music, Trophy, ChevronLeft } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Separator } from "@/components/ui/separator"
@@ -9,7 +9,6 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import {
   DropdownMenu,
   DropdownMenuContent,
-  DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import {
@@ -20,7 +19,7 @@ import {
   CommandItem,
   CommandList,
 } from "@/components/ui/command"
-import Image from "next/image"
+// import Image from "next/image"
 
 export function Portfolio() {
   const [open, setOpen] = React.useState(false)
